@@ -1,0 +1,82 @@
+body{
+    background-color: brown;
+}
+.cont{
+    background-color: burlywood;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card{
+    background-color:white;
+    height: 200px;
+    width: 100%;
+    display:flex;
+}
+    .cards{
+        display:flex;
+        gap:10px;
+        padding-top:20;
+    
+    }
+
+
+    .at{
+        font-size: 100px;
+        text-align: center;
+        background-color: aqua;
+    }
+    .H2{
+        text-align: center;
+    }
+    .G{
+        justify-content:space-between;
+        display: flex;
+        gap:5px;
+    }
+
+
+@media only screen and (min-width: 320px), (max-width:600px){
+
+    body{
+        background-color: brown;
+    }
+    .cont{
+        background-color: burlywood;
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .card{
+        background-color:white;
+        height: 200px;
+        width: 100%;
+        display:flex;
+    }
+        .cards{
+            display:flex;
+            gap:10px;
+            padding-top:20;
+        
+        }
+    
+    
+        .at{
+            font-size: 100px;
+            text-align: center;
+            background-color: aqua;
+        }
+        .H2{
+            text-align: center;
+        }
+        .G{
+            justify-content:space-between;
+            display: flex;
+            gap:5px;
+        }
+
+    .img{
+        background-image:url("multi_future_laps_pix.jp");
+    }
+}
+    
